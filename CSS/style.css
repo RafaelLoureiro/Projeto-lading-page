@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: 'inter';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    width: 1920px;
+}
+
+
+/*Cabeçalho da Pagina */
+.head_Page {
+    height: 475px;
+    background-color: #303030;
+    color: #ffffff;
+}
+
+#title_Head {
+    padding-top: 206px;
+    margin-left: 162px;
+    height: 72px;
+    font-weight: 600;
+    font-style: Semi Bold;
+    size: 60px;
+}
+
+#p_head {
+    margin-top: 25px;
+    margin-left: 162px;
+    height: 28px;
+    font-weight: 500;
+    padding: 10px;
+    font-style: Medium;
+    size: 20px;
+}
+
+/*pagina abixo do cabeçalho*/
+#under_headPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 229px;
+    background-color: #f9f9f9;
+    gap: 200px;
+}
+
+
+
+#p_undHead {
+    margin-top: 6px;
+    size: 40px;
+    font-weight: 400;
+    width: 354px;
+}
+
+h3 {
+
+    width: 600;
+    size: 40px;
+    color: #000000;
+    font-style: Mixed;
+}
+
+/*Pagina do Meio do Body*/
+#under_Mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+
+}
+
+#h2_Mid {
+    padding-top: 30px;
+    font-weight: 500;
+    size: 40px;
+    padding-left: 150px;
+    font-style: Mixed;
+}
+
+#p2_Mid {
+    font-weight: 300;
+    size: 24px;
+    padding-left: 150px;
+    font-style: Mixed;
+}
+
+#img_MidPage {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+}
+
+/*Pagina de Rodapé*/
+#bottom_Page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+
+}
+
+#h4_bottom {
+    color: #ffffff;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+    height: 48px;
+}
+
+#name_Input {
+    width: 500px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+#email_Input {
+    width: 500px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 500px;
+}
+
+button {
+    font-size: 20px;
+    font-style: Bold;
+    width: 250px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px #e28820;
+    background-color: #c07212;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #e28820;
+    color: #ffffff;
+    transform: translateY(-6px);
+    box-shadow: 0px 15px 20px rgb(126, 83, 4);
+    transition-duration: 0.5s;
+}
